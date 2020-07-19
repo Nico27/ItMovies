@@ -3,10 +3,11 @@
 A website about movies to provide its customers and users an API to query their database, as well as provide the trusted company users the ability to update or create new records.
 
 ## List of available endpoints and supported methods
+```sh
 - localhost/         <- DRF endpoints version
 - localhost/swagger  <- UI Swagger endpoints
 - localhost/redoc    <- UI Redoc endpoints
-
+```
 
 **Note: you should be authenticated to use the unsafe methods**
 

@@ -37,7 +37,7 @@ class MovieSerializer(serializers.ModelSerializer):
         fields = ['id', 'title', 'release_year', 'casting', 'director', 'producer']
 
 class PersonSerializer(serializers.ModelSerializer):
-    movie_as_actor = MovieSerializer(many=True, write_only=True)
+    movie_as_actor = MovieSerializer(many=True)
     movie_as_director = MovieSerializer(many=True)
     movie_as_producer = MovieSerializer(many=True)
 

@@ -7,7 +7,7 @@ A website about movies to provide its customers and users an API to query their 
 - localhost/redoc
 
 
-Note: you should be authenticated to use the unsafe methods
+**Note: you should be authenticated to use the unsafe methods**
 
 ## List of libraries/framework (requirements.txt)
 ```sh

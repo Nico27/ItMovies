@@ -21,3 +21,7 @@ A website about movies to provide its customers and users an API to query their 
   drf-yasg==1.17.1              <- Django library for Swagger
   gunicorn==20.0.4              <- To deploy the project on Heroku
 ```
+## Heroku Demo
+```sh
+https://sleepy-spire-83463.herokuapp.com/swagger/
+```
